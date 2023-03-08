@@ -95,7 +95,7 @@ body.scale-cv{
 }
 .scale-cv .section.interests,
 .scale-cv .section.languages{
-    padding: 0;
+    padding: 0.8rem 0;
 }
 
 .scale-cv .section-title{
