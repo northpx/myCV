@@ -129,7 +129,9 @@ body.scale-cv{
     font-size: 1rem;
 }
 
-.scale-cv .education__container,
+.scale-cv .education__container{
+    gap: 0.8rem;
+}
 .scale-cv .experience__container,
 .scale-cv .project__container{
     gap: 0.8rem;
