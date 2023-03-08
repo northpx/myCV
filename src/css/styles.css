@@ -93,6 +93,10 @@ body.scale-cv{
 .scale-cv .section{
     padding: 1.5rem 0 .80rem;
 }
+.scale-cv .section.interests,
+.scale-cv .section.languages{
+    padding: 0;
+}
 
 .scale-cv .section-title{
     margin-bottom: .75rem;
@@ -127,32 +131,38 @@ body.scale-cv{
 }
 
 .scale-cv .education__container,
-.scale-cv .experience__container,
-.scale-cv .certificate__container{
+.scale-cv .experience__container{
     gap: 1rem;
+}
+.scale-cv .project__container{
+    gap: 0.8rem;
 }
 
 .scale-cv .education__time,
-.scale-cv .experience__time{
+.scale-cv .experience__time,
+.scale-cv .project__time{
     padding-right: .5rem;
 }
 
 .scale-cv .education__rounder,
-.scale-cv .experience__rounder{
+.scale-cv .experience__rounder,
+.scale-cv .project__rounder{
     width: 11px;
     height: 11px;
     margin-top: .22rem;
 }
 
 .scale-cv .education__line,
-.scale-cv .experience__line{
+.scale-cv .experience__line,
+.scale-cv .project__line{
     width: 1px;
-    height: 110%;
+    height: 100%;
     transform: translate(5px,0);
 }
 
 .scale-cv .education__data,
-.scale-cv .experience__data{
+.scale-cv .experience__data,
+.scale-cv .project__data{
     gap: .25rem;
 }
 
@@ -378,6 +388,10 @@ img{
 .social__icon{
     font-size: 1.2rem;
     margin-right: .25rem;
+}
+
+.project__container{
+    gap: 1rem;
 }
 
 .profile__description{
