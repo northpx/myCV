@@ -93,8 +93,7 @@ body.scale-cv{
 .scale-cv .section{
     padding: 1.5rem 0 .80rem;
 }
-.scale-cv .section.interests,
-.scale-cv .section.languages{
+.scale-cv .section.interests{
     padding: 0.8rem 0;
 }
 
