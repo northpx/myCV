@@ -83,7 +83,7 @@ body.scale-cv{
 
 .scale-cv .change-theme,
 .scale-cv .generate-pdf{
-    display: none;
+    display: none !important;
 }
 
 .scale-cv .bd-container{
